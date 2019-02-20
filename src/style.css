@@ -1,1 +1,10 @@
-/* Acá va tu código */
+body {background-image: url(imagenes/tecsup.jpg);
+      background-size: 1000px
+}
+div.used {background-position: center;
+
+}
+
+div.coder {background-attachment: initial;
+
+}

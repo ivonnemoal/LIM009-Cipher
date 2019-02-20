@@ -7,7 +7,33 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>SUM</h1>
+      <P>Sistema Unico de Matricula</P>
+      <div class="used">
+        <form action="datos.php">
+          <label for="user">Ingresa tus datos</label>
+          <br><br>
+          <input type="text" placeholder="usuario" id=user>
+          <label for="user">@edu.es</label>
+          <br><br>
+          <input type="password" placeholder="contraseña" maxlength = "8" >
+          <br><br>
+          <input type="button" value="Iniciar sesion">
+        </form>
+      </div>
+      <br><br>
+      <div class="coder">
+       <form action="code.php">
+         <label for="name">Ingresa tu nombre a encriptar</label>
+         <br><br>
+         <input type="text" placeholder="escribe aqui">
+         <br><br>
+         <input type="button" value="Enviar">
+
+
+       </form>
+
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
