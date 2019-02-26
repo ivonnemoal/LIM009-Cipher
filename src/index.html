@@ -6,35 +6,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>SUM</h1>
-      <P>Sistema Unico de Matricula</P>
-      <div class="used">
-        <form action="datos.php">
-          <label for="user">Ingresa tus datos</label>
-          <br><br>
-          <input type="text" placeholder="usuario" id=user>
-          <label for="user">@edu.es</label>
-          <br><br>
-          <input type="password" placeholder="contraseña" maxlength = "8" >
-          <br><br>
-          <input type="button" value="Iniciar sesion">
-        </form>
+    <div class="conteiner">
+      <header> 
+          <h1>SUM</h1>
+          <P>Sistema Unico de Matricula</P>
+      </header>
+      <section class="login"> 
+          <img src="img/usuario.jpg" alt="icono-usuario">
+          <div class="user">
+                  <form action="datos"><h2>Iniciar Sesion</h2>
+                      <label for="name"><b>Usuario</b></label> <br>
+                      <input type="text" id="name" placeholder="ingresa tu nombre">
+                  </div>
+                  <div class="coder">
+                      <label for="number"></label> <br>
+                      <input type="number" id="number" placeholder="selecciona aqui">
+                  </div>
+                  <div class="butons">
+                      <button  onclick="getData(true)">Encriptar</button>
+                      <button  onclick="getData(false)">Desencriptar</button>
+                  </div>
+                  <div class="resultado">
+                  <br><br>
+                  <label for="result"><b>Usuario Secreto</b></label> <br>
+                  <input type="text"id="result" placeholder="">
+                  </form>
+          </div>
+      </section>
+      <aside>
+          <img src="img/escudo.jpg" alt="escudo">
+      </aside>
       </div>
-      <br><br>
-      <div class="coder">
-       <form action="code.php">
-         <label for="name">Ingresa tu nombre a encriptar</label>
-         <br><br>
-         <input type="text" placeholder="escribe aqui">
-         <br><br>
-         <input type="button" value="Enviar">
-
-
-       </form>
-
-      </div>
-    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
