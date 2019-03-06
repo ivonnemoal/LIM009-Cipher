@@ -1,4 +1,4 @@
-##SISTEMA DE MATRICULA ESPECIAL
+## SISTEMA DE MATRICULA ESPECIAL
 
 Este programa esta realizado pensando en la necesidad de un grupo de jovenes estudiantes de una institucion que desean matricularse en los cursos de su eleccion sin revelar su identidad, encriptando a traves del **metodo 'codigo cesar'**, sus nombres por uno de **'usuario privado'** ya que no desean que su matricula y eleccion de cursos sea publica para todo el cuerpo estudiantil.
 
