@@ -2,42 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>CipherParty</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="conteiner">
-      <header> 
-          <h1>SUM</h1>
-          <P>Sistema Unico de Matricula</P>
-      </header>
-      <section class="login"> 
-          <img src="img/usuario.jpg" alt="icono-usuario">
-          <div class="user">
-                  <form action="datos"><h2>Iniciar Sesion</h2>
-                      <label for="name"><b>Usuario</b></label> <br>
-                      <input type="text" id="name" placeholder="ingresa tu nombre">
-                  </div>
-                  <div class="coder">
-                      <label for="number"></label> <br>
-                      <input type="number" id="number" placeholder="selecciona aqui">
-                  </div>
-                  <div class="butons">
-                      <button  onclick="getData(true)">Encriptar</button>
-                      <button  onclick="getData(false)">Desencriptar</button>
-                  </div>
-                  <div class="resultado">
-                  <br><br>
-                  <label for="result"><b>Usuario Secreto</b></label> <br>
-                  <input type="text"id="result" placeholder="">
-                  </form>
-          </div>
-      </section>
-      <aside>
-          <img src="img/escudo.jpg" alt="escudo">
-      </aside>
+      <div class="conteiner">
+          <header> 
+              <h1>SUM</h1>
+              <P>Sistema Unico de Matricula</P>
+          </header>
+          <section class="login">
+              <img src="img/usuario.jpg" alt="icono-usuario">
+              <h2>Iniciar Sesion</h2>       
+            <label for="text"><b>Usuario</b></label> <br>
+            <input type="text" id="text" class="input" placeholder="nombre a cifrar">
+            <div class="coder">
+              <label for="number"></label> <br>
+              <input type="number" class="input" id="number" placeholder="selecciona aqui">
+            </div>
+             <div class="butons">
+               <button onclick="getDatos(true)">Cifrar</button>
+              <button onclick="getDatos(false)">Descifrar</button>
+             </div class="resultado">
+             <br><br><br>
+             <label for="result"><b>Usuario Secreto</b></label> <br>
+             <input type="text" id="result" placeholder="usuario a descifrar">
+          </section>
+          <aside>
+              <img src="img/escudo.jpg" alt="escudo">
+          </aside>
       </div>
-    <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>

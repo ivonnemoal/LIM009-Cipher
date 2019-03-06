@@ -1,104 +1,102 @@
 *  {
-      margin: 0px;
-      padding: 0px;
-      background-size: 170% auto;
-  }
-  
-  body  {
-      background-image: url(img/portada.jpg)
-  }
-  
-  .conteiner  { 
-      width: 1200px;
-      margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      overflow: hidden;
-  }
-  
-  header  { 
-      height: 200px;
-      background: rgb(132, 223, 14);
-      color: aliceblue;
-  }
-  
-  header h1  { 
-      font-family: serif;
-      font-size: 140px;
-      text-align: center;
-      line-height: 150px;
-  }
-  
-  header p { 
-      font-family: serif;
-      font-size: 35px;
-       text-align: left;
-       margin-bottom: 10px;
-       margin-left: 20px;
-  }
-  
-   .login  { 
-       color: #fdfbfa;
-       width: 600px;
-       height: 900px;
-       float: left;
-       margin-top: 100px;
-       margin-right: 10px;
-       margin-bottom: 10px;
-   }
-  
-   .login h2 p { 
-      font-family: sans-serif;
-      font-size: 100px;
-      text-align: center;
-      line-height:200px;
-   }
-  
-   .user {
-      font-family: serif;
-      font-size: 30px;
-    } 
-  
-    .resultado  {
-      font-family: serif;
-      font-size: 30px;
-     } 
-  
-   aside  { 
-      width: 340px;
-      height: 400px;
-      float: right;
-      margin-top:100px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-   }
+    margin: 0px;
+    padding: 0px;
+    background-size: 170% auto;
+}
 
-   input[type=text] {
-      width: 35%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 2px solid rgb(51, 206, 51);
-      border-radius: 4px;
+body  {
+    background-image: url(img/portada.jpg)
+}
+
+.conteiner  { 
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+header  { 
+    height: 200px;
+    background: rgb(132, 223, 14);
+    color: aliceblue;
+}
+
+header h1  { 
+    font-family: serif;
+    font-size: 140px;
+    text-align: center;
+    line-height: 150px;
+}
+
+header p { 
+    font-family: serif;
+    font-size: 35px;
+     text-align: left;
+     margin-bottom: 10px;
+     margin-left: 20px;
+}
+
+ .login  { 
+     color: #fdfbfa;
+     width: 600px;
+     height: 900px;
+     float: left;
+     margin-top: 100px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+ }
+
+ .login h2 p { 
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    line-height:200px;
+ }
+
+ .user {
+    font-family: serif;
+    font-size: 30px;
+  } 
+
+  .resultado  {
+    font-family: serif;
+    font-size: 30px;
+   } 
+
+ aside  { 
+    width: 340px;
+    height: 400px;
+    float: right;
+    margin-top:100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+
+ input[type=text] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(51, 206, 51);
+    border-radius: 4px;
 } 
 
 input[type=number] {
-      width: 35%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 2px solid rgb(51, 206, 51);
-      border-radius: 4px;
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(51, 206, 51);
+    border-radius: 4px;
 } 
 
 button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 20px;
-      border: solid;
-      border-radius: 4px;
-      cursor: pointer;
-      float: left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
 }
-
-   { } 
