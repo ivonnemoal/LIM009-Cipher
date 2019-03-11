@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>CipherParty</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-      <div class="conteiner">
-          <header> 
-              <h1>SUM</h1>
-              <p>Sistema Unico de Matricula</p>
-          </header>
-          <section class="login">
-              <img src="img/usuario.jpg" alt="icono-usuario">
-              <h2>Iniciar Sesion</h2>       
-            <label for="text"><b>Usuario</b></label> <br>
-            <input type="text" id="text" class="input" placeholder="nombre a cifrar">
-            <div class="coder">
-              <label for="number"></label> <br>
-              <input type="number" class="input" id="number" placeholder="selecciona aqui">
-            </div>
-             <div class="butons">
-               <button id="get-datos">Cifrar</button>
-              <button id="get-datos2">Descifrar</button>
-             </div>
-             <br><br><br>
-             <label for="result"><b>Usuario Secreto</b></label> <br>
-             <input type="text" id="result" placeholder="usuario a descifrar">
-          </section>
-          <aside>
-              <img src="img/escudo.jpg" alt="escudo">
-          </aside>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>CipherParty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="conteiner">
+    <header>
+      <h1>SUM</h1>
+      <p>Sistema Unico de Matricula</p>
+    </header>
+    <section class="login">
+      <img src="img/usuario.jpg" alt="icono-usuario">
+      <h2>Iniciar Sesion</h2>
+      <label for="text"><b>Usuario</b></label> <br>
+      <input type="text" id="text" class="input" placeholder="nombre a cifrar">
+      <div class="coder">
+        <label for="number"></label> <br>
+        <input type="number" class="input" id="number" placeholder="selecciona aqui">
       </div>
-    <script src="index.js"></script>
-    <script src="cipher.js"></script>
-  </body>
+      <div class="butons">
+        <button id="get-datos">Cifrar</button>
+        <button id="get-datos2">Descifrar</button>
+      </div>
+      <br><br><br>
+      <label for="result"><b>Usuario Secreto</b></label> <br>
+      <input type="text" id="result" placeholder="usuario a descifrar">
+    </section>
+    <aside>
+      <img src="img/escudo.jpg" alt="escudo">
+    </aside>
+  </div>
+  <script src="index.js"></script>
+  <script src="cipher.js"></script>
+</body>
+
 </html>
